@@ -1,6 +1,5 @@
 # MLP-from-scratch-in-Rust
 
-Group-9
 Aiden Young: aideny2
 
 
@@ -25,7 +24,7 @@ Used He-initialization, ReLU activation function, Soft-max on the final layer, c
   Biases are initialized to 0 and have dimension [output,]
 
 
--Forward Pass (Planned by first checkpoint, NOT COMPLETED) 
+-Forward Pass (Planned by first checkpoint) 
   My  data (28x28 = 784 pixels) will be passed through the Neural Network.
 
   Save all activations (including input data) to a vector which will be returned.
@@ -35,7 +34,7 @@ Used He-initialization, ReLU activation function, Soft-max on the final layer, c
   On the last layer we will use SoftMax instead of ReLU. This function is good for probabilistic predicts because all values sum to 1.
 
 
--Calculate Gradients (Planned by second checkpointm NOT COMPLETED)
+-Calculate Gradients (Planned by second checkpoint)
   We need to train the network by finding the error of each node the "blame" each.
   We run the forward pass with our given data and that is the model's prediction.
   
@@ -75,8 +74,6 @@ This is a lot harder because we don't see exactly what is happening as we move t
 
 Anything else to keep things running efficiently while maintaining clean code.
 
-My teammate knows nothing about neural networks so I'm not sure what to do about that.
-
 
 Inspiration:
 
@@ -90,10 +87,10 @@ Acheived 98.11% accuracy.
 
 Trained a lot faster than a Python implementation with numpy
 
-Epoch:  1 | Test Accuracy: 0.9242%
-Epoch:  2 | Test Accuracy: 0.9320%
-Epoch:  3 | Test Accuracy: 0.9417%
+Epoch:  1 | Test Accuracy: 0.9242
+Epoch:  2 | Test Accuracy: 0.9320
+Epoch:  3 | Test Accuracy: 0.9417
 ...
-Epoch: 88 | Test Accuracy: 0.9792%
-Epoch: 89 | Test Accuracy: 0.9806%
-Epoch: 90 | Test Accuracy: 0.9811%
+Epoch: 88 | Test Accuracy: 0.9792
+Epoch: 89 | Test Accuracy: 0.9806
+Epoch: 90 | Test Accuracy: 0.9811
